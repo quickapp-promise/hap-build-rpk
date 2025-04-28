@@ -1,0 +1,40 @@
+# 第三方包
+node_modules
+
+# 文件系统
+.DS_Store
+*.swp
+*.swo
+*.swn
+
+# 编辑器
+.vscode/
+*.code-workspace
+*.vscode/
+
+# 日志
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.tmp.*
+*.temp.*
+
+# 开发编译文件
+dist/
+build/
+bin/
+
+# 缓存文件
+.cache/
+.cache-*
+.cache-*.*
+
+# 环境变量
+.env
+.env.*
+*.env
+
+# 签名
+sign/

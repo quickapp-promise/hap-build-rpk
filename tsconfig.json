@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@hap-toolkit/*": ["hap-toolkit/*"]
+    },
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./bin"
+  },
+  "include": [
+    "src/**/*",
+    "hap-toolkit/**/*"
+  ]
+}

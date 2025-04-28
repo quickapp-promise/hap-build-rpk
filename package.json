@@ -1,0 +1,36 @@
+{
+  "name": "hap-build-rpk",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hap-build-rpk": "./bin/index.js"
+  },
+  "keywords": [
+    "quickapp"
+  ],
+  "author": "qinjiapeng <759848795@qq.com> (https://github.com/qjp88995)",
+  "license": "MIT",
+  "description": "Quickapp build files to rpk",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsrsasign": "^10.5.15",
+    "chalk": "^5.4.1",
+    "copy-webpack-plugin": "^13.0.0",
+    "css": "^3.0.0",
+    "css-what": "^6.1.0",
+    "fs-extra": "^11.3.0",
+    "jsrsasign": "^11.1.0",
+    "jszip": "^3.10.1",
+    "parse5": "^7.3.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-shebang-plugin": "^1.1.8"
+  },
+  "files": [
+    "bin"
+  ]
+}
